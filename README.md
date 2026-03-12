@@ -102,11 +102,13 @@ Global-Layoffs-Analysis
 │
 ├── data
 │ └── layoffs.csv
+│ └──cleaned_layoffs_dataset.csv
 │
 ├── layoffs_analysis.ipynb
 │
-├── images
+├── image
 │ └── dashboard.png
 │
 └── README.md
+
 ```
