@@ -23,17 +23,24 @@ With increasing layoffs in the global tech ecosystem, this project aims to answe
 ---
 
 ## Dataset
-The dataset contains global layoffs data including:
+
+The dataset contains information about global layoffs across different companies and industries.
+
+Key columns include:
 
 | Column | Description |
 |------|-------------|
-| Company | Name of the company |
-| Industry | Industry category |
-| Country | Country where layoffs occurred |
-| Total Layoffs | Number of employees laid off |
-| Percentage Laid Off | Percentage of workforce laid off |
-| Date | Layoff announcement date |
-| Stage | Startup funding stage |
+| company | Name of the company |
+| location | City where layoffs occurred |
+| country | Country where the company is located |
+| industry | Industry category |
+| total_laid_off | Number of employees laid off |
+| percentage_laid_off | Percentage of workforce laid off |
+| date | Date of layoff announcement |
+| stage | Startup funding stage |
+| funds_raised_millions | Total funding raised by the company |
+
+The dataset was used to analyze trends in layoffs across industries, companies, countries, and time.
 
 ---
 
