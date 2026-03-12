@@ -74,7 +74,7 @@ An interactive **Power BI dashboard** was created to present insights clearly an
 
 ## Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](image/dashboard.png)
 
 The dashboard provides an overview of layoffs with interactive insights including:
 
