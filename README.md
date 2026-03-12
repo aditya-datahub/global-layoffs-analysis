@@ -24,23 +24,30 @@ With increasing layoffs in the global tech ecosystem, this project aims to answe
 
 ## Dataset
 
-The dataset contains information about global layoffs across different companies and industries.
+**Dataset Name:** World Layoffs Dataset  
+**Source:** Layoffs.fyi (also available on Kaggle)
 
-Key columns include:
+This dataset contains information about layoffs across companies worldwide, including details about company location, industry, funding stage, and the number of employees laid off.
+
+**Dataset Size:** 2,362 records
+
+The dataset was used to analyze layoff trends across companies, industries, countries, and time.
+
+### Key Columns
 
 | Column | Description |
 |------|-------------|
 | company | Name of the company |
 | location | City where layoffs occurred |
-| country | Country where the company is located |
 | industry | Industry category |
-| total_laid_off | Number of employees laid off |
+| total_laid_off | Total number of employees laid off |
 | percentage_laid_off | Percentage of workforce laid off |
-| date | Date of layoff announcement |
-| stage | Startup funding stage |
-| funds_raised_millions | Total funding raised by the company |
+| date | Date when layoffs were announced |
+| stage | Funding stage of the company (e.g., Series A, Post-IPO) |
+| country | Country where layoffs occurred |
+| funds_raised_millions | Total funding raised by the company in millions |
 
-The dataset was used to analyze trends in layoffs across industries, companies, countries, and time.
+Before performing analysis, the dataset was cleaned and transformed to handle missing values, standardize formats, and create new features such as **year and month** for time-based analysis.
 
 ---
 
