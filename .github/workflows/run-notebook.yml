@@ -2,8 +2,8 @@ name: Run Jupyter Notebook
 
 on:
   schedule:
-    - cron: '0 0 * * 0'   # Runs every Sunday (weekly)
-  workflow_dispatch:       # Manual run button
+    - cron: '0 0 * * 0'   # Weekly (Sunday)
+  workflow_dispatch:
 
 jobs:
   run-notebook:
@@ -24,7 +24,7 @@ jobs:
 
     - name: Execute Jupyter Notebook
       run: |
-        jupyter nbconvert --to notebook --execute layoffs_analysis.ipynb --inplace
+        jupyter nbconvert --to notebook --execute layoffs_analysis.ipynb --inplace --ExecutePreprocessor.kernel_name=python3
 
     - name: Commit and push updated notebook
       run: |
